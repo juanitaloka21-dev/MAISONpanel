@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Panel Administrativo | MAISON</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="wrapper">
+    <header>
+      <h1>Panel Administrativo</h1>
+      <p>Pedidos, inventario y control de operaciones</p>
+    </header>
+
+    <main>
+    <section>
+      <h2>📦 Pedidos Recibidos</h2>
+      <table id="tabla-pedidos">
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Producto</th>
+            <th>Precio</th>
+            <th>Hora</th>
+            <th>mesa</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </section>
+
+    <section>
+      <h2>📊 Inventario</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Producto</th>
+            <th>Stock</th>
+            <th>Actualizar</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Café</td>
+            <td>120</td>
+            <td><button>Editar</button></td>
+          </tr>
+          <tr>
+            <td>Gin Tonic</td>
+            <td>45</td>
+            <td><button>Editar</button></td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+  </main>
+
+
+    <footer>© 2025 MAISON - Panel del Administrador</footer>
+  </div>
+
+  <script src="admin.js"></script>
+</body>
+</html>
